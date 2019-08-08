@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Cms.Attributes</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Cms.Attributes.CustomRouteAttribute">
+            <summary>
+            For Dynamic Rendering, allows a property to be tagged with a specific MVC route for rendering
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Attributes.CustomRouteAttribute.Context">
+            <summary>
+            The DisplayContext that this route applies to
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Attributes.CustomRouteAttribute.RouteValues">
+            <summary>
+            The object dictionary representing the passed in route values
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Attributes.CustomRouteAttribute.#ctor(Penguin.Persistence.Abstractions.Attributes.Control.DisplayContext,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructs a new instance of this attribute
+            </summary>
+            <param name="context">The display context this attribute should apply to</param>
+            <param name="controller">The name of the controller to route to</param>
+            <param name="action">The controller action to route to</param>
+            <param name="area">The area the controller resides in</param>
+            <param name="namespace">The namespace the controller resides in</param>
+        </member>
+        <member name="T:Penguin.Cms.Attributes.DisplayType">
+            <summary>
+            Specifies that during dynamic display, this property should be treated as a different type
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Attributes.DisplayType.Name">
+            <summary>
+            The FullName of the type to treat this property as
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Attributes.DisplayType.#ctor(System.String)">
+            <summary>
+            Creates a new instance of this attribute
+            </summary>
+            <param name="name">The full name of the type to render this property as</param>
+        </member>
+    </members>
+</doc>
