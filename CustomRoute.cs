@@ -15,12 +15,12 @@ namespace Penguin.Cms.Attributes
         /// <summary>
         /// The DisplayContext that this route applies to
         /// </summary>
-        public DisplayContext Context { get; set; }
+        public DisplayContexts Context { get; set; }
 
         /// <summary>
         /// The object dictionary representing the passed in route values
         /// </summary>
-        public Dictionary<string, object> RouteValues { get; set; }
+        public Dictionary<string, object> RouteValues { get; }
 
         #endregion Properties
 
@@ -34,7 +34,7 @@ namespace Penguin.Cms.Attributes
         /// <param name="action">The controller action to route to</param>
         /// <param name="area">The area the controller resides in</param>
         /// <param name="namespace">The namespace the controller resides in</param>
-        public CustomRouteAttribute(DisplayContext context, string controller, string action, string area = "", string @namespace = "")
+        public CustomRouteAttribute(DisplayContexts context, string controller, string action, string area = "", string @namespace = "")
         {
             this.RouteValues = new Dictionary<string, object>
             {

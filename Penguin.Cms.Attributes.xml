@@ -19,7 +19,7 @@
             The object dictionary representing the passed in route values
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Attributes.CustomRouteAttribute.#ctor(Penguin.Persistence.Abstractions.Attributes.Control.DisplayContext,System.String,System.String,System.String,System.String)">
+        <member name="M:Penguin.Cms.Attributes.CustomRouteAttribute.#ctor(Penguin.Persistence.Abstractions.Attributes.Control.DisplayContexts,System.String,System.String,System.String,System.String)">
             <summary>
             Constructs a new instance of this attribute
             </summary>
@@ -29,17 +29,17 @@
             <param name="area">The area the controller resides in</param>
             <param name="namespace">The namespace the controller resides in</param>
         </member>
-        <member name="T:Penguin.Cms.Attributes.DisplayType">
+        <member name="T:Penguin.Cms.Attributes.DisplayTypeAttribute">
             <summary>
             Specifies that during dynamic display, this property should be treated as a different type
             </summary>
         </member>
-        <member name="P:Penguin.Cms.Attributes.DisplayType.Name">
+        <member name="P:Penguin.Cms.Attributes.DisplayTypeAttribute.Name">
             <summary>
             The FullName of the type to treat this property as
             </summary>
         </member>
-        <member name="M:Penguin.Cms.Attributes.DisplayType.#ctor(System.String)">
+        <member name="M:Penguin.Cms.Attributes.DisplayTypeAttribute.#ctor(System.String)">
             <summary>
             Creates a new instance of this attribute
             </summary>
