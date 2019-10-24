@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Attributes</PackageProjectUrl>
+    <Description>Attributes specific to the Penguin CMS dynamic rendering system for objects</Description>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.csproj" />
+  </ItemGroup>
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
+</Project>
