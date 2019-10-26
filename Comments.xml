@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Cms.Attributes.Local</name>
+        <name>Penguin.Cms.Attributes</name>
     </assembly>
     <members>
         <member name="T:Penguin.Cms.Attributes.CustomRouteAttribute">
