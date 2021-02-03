@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Attributes</PackageProjectUrl>
     <Description>Attributes specific to the Penguin CMS dynamic rendering system for objects</Description>
-    <Version>5.0.0</Version>
+    <Version>5.0.1</Version>
     <AssemblyName>Penguin.Cms.Attributes</AssemblyName>
     <RootNamespace>Penguin.Cms.Attributes</RootNamespace>
     <DocumentationFile>Penguin.Cms.Attributes.xml</DocumentationFile>
@@ -13,7 +13,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Persistence.Abstractions" Version="5.0.1-TA99DVY" />
+    <PackageReference Include="Penguin.Persistence.Abstractions" Version="5.0.2-TA9KKLU" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
