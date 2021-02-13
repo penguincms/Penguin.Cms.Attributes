@@ -13,7 +13,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Persistence.Abstractions" Version="5.0.2-TA9KKLU" />
+    <PackageReference Include="Penguin.Persistence.Abstractions" Version="5.0.2-TAA4YFP" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
