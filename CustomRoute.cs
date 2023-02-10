@@ -48,7 +48,9 @@ namespace Penguin.Cms.Attributes
         }
 
         public string Controller { get; }
+
         public string Action { get; }
+
         public string Area { get; }
 
         #endregion Constructors
