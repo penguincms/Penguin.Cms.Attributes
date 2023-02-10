@@ -6,14 +6,14 @@ namespace Penguin.Cms.Attributes
     /// Specifies that during dynamic display, this property should be treated as a different type
     /// </summary>
     [AttributeUsage(AttributeTargets.Property)]
-    public class DisplayTypeAttribute : Attribute
+    public sealed class DisplayTypeAttribute : Attribute
     {
         #region Properties
 
         /// <summary>
         /// The FullName of the type to treat this property as
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; internal set; }
 
         #endregion Properties
 
